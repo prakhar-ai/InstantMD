@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+{% block content%}
+<div class="ui container">
+    <div class="ui stretched one column grid" style="padding: 2.5em">
+        <h1 class="ui huge header"><i class="file alternate icon"></i> Report</h1>
+        <!--Semantic UI-->
+        <div class="row">
+            <div class="column">
+                <div class="ui raised segments" style="padding: 1em">
+                    <div class="ui segment">
+
+
+                      <table class="ui inverted grey table">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th class="right aligned">Story</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>John</td>
+                            <td>M</td>
+                            <td class="right aligned">I have high fever with chills, since 3 days. The fever increases at night. I also have generalized body ache and diziness</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <table class="ui padded black table">
+                        <thead>
+                            <tr>
+                            <th>Factor</th>
+                            <th>Status</th>
+                            <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Chief Complaint</td>
+                            <td>Found</td>
+                            <td>right sole cracked</td>
+                            </tr>
+                            <tr>
+                            <td>Symptoms</td>
+                            <td>Not Found</td>
+                            <td>-</td>
+                            </tr>
+                            <tr>
+                            <td>Duration</td>
+                            <td>Found</td>
+                            <td>5 weeks</td>
+                            </tr>
+                            <tr>
+                            <td>Severity</td>
+                            <td>Found</td>
+                            <td>moderate</td>
+                            </tr>
+                            <tr>
+                            <td>Associated Symptom</td>
+                            <td>Not Found</td>
+                            <td>-</td>
+                            </tr>
+                            <tr>
+                            <td>Aggravating Factors</td>
+                            <td>Not Found</td>
+                            <td>-</td>
+                            </tr>
+                            <tr>
+                            <td>Relieveing Factors</td>
+                            <td>Found</td>
+                            <td>moisturizing the area</td>
+                            </tr>
+                        </tbody>
+                        </table>
+
+                        <form class="ui form" action="/add" method="post" >
+                        <button class="fluid ui button" type="submit">Store in Database</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content%}
+<!--BODY CONTENTS-->
+<div class="ui container">
+    <div class="ui stretched column grid" style="padding: 2.5em">
+        <h1 class="ui huge header"><i class="home icon"></i> Instant MD: Home</h1>
+        <div class="row">
+            <!--Semantic UI-->
+            <div class="column">
+                <div class="ui raised segments" style="padding: 1em">
+                    
+                    <div class="ui segment">
+
+                        <h2 class="ui large header">Welcome to Instant MD</h2>
+                        <p>Instant MD is a Investigation, Medication and Chief complaint recognition application using NLP</p>
+                        </br>
+                        <img src='https://image.freepik.com/free-vector/online-doctor-concept-illustration_114360-1831.jpg'class="ui centered medium circular image"> 
+                        <div>
+                        <h3 class="ui dividing header">Problem Statement</h3>
+                                <h4 class="ui header">Abstract</h4>
+                                <p>Being able to have machines understand unstructured textual content already plays a big part nowadays in our life. 
+                                    NLP can contribute largely to the advancement of medical science. 
+                                    NLP is used to extract information from free text narratives written by a variety of healthcare providers. 
+                                    Here we approach natural language processing algorithm where we </p>
+                                    <div class="ui bulleted list">
+                                        <div class="item">Evaluate the free text and compare it with the dataset of NLP Dictionary.</div>
+                                        <div class="item">Annotated the important textual content from the text like Medication, Investigation (Pathology, Radiology), Chief Complaint. </div>
+                                        <div class="item">After Segregation the highlighted data should automatically enter the flow of EMR.</div>
+
+                                    </div>
+
+                                    <h4 class="ui header">Problem Definition</h4>
+                                    <p>To develop a solution, the first step is to understand the problem. Develop an NLP module to identify the keywords 
+                                        related to a patient's investigation, medication and chief complaint from a free text in the text box.
+                                         Highlight the extracted content and feed them as input in EMR’s Chief complaint, Investigation and Medication module.</p>
+
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

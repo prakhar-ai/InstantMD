@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content%}
+<div class="ui container">
+    <div class="ui stretched one column grid" style="padding: 2.5em">
+        <h1 class="ui huge header"><i class="database icon"></i>Database</h1>
+        <!--Semantic UI-->
+        <div class="row">
+            <div class="column">
+                <div class="ui raised segments" style="padding: 1em">
+                    <div class="ui segment">
+
+
+
+                        <table class="ui striped table">
+                            <thead>
+                              <tr>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Story</th>
+                                <th>Chief Complaint</th>
+                                <th>Symptoms</th>
+                                <th>Duration</th>
+                                <th>Severity</th>
+                                <th>Associated Symptom</th>
+                                <th>Aggravating Factors</th>
+                                <th>Relieveing Factors</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {% for patient in Patientlist %}
+                              <tr>
+                                <td>{{patient.name }}</td>
+                                <td>{{patient.gender }}</td>
+                                <td>{{patient.story }}</td>
+                                <td>{{patient.complaint}}</td>
+                                <td>{{patient.symptoms }}</td>
+                                <td>{{patient.duration }}</td>
+                                <td>{{patient.severity }}</td>
+                                <td>{{patient.asymptom }}</td>
+                                <td>{{patient.afactors }}</td>
+                                <td>{{patient.rfactors }}</td>
+                        
+                             </tr>
+                              {% endfor %}
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

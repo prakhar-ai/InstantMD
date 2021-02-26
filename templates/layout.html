@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Instant MD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+
+
+
+</head>
+    
+
+<body>
+    <!--Menu bar-->
+    <div class="ui inverted segment">
+        <div class="ui inverted secondary pointing menu">
+            <h3 class = "item"><i class="pills icon"></i>Instant MD</h3>
+            <a class="{% if active=='home' %}active{% endif %} item" href="{{ url_for('home') }}">
+                <i class="home icon"></i> Home
+            </a>
+            <a class="{% if active=='evaluate' %}active{% endif %} item" href="{{ url_for('evaluate') }}">
+                <i class="user md icon"></i> Evaluation
+            </a>
+            <a class="{% if active=='report' %}active{% endif %} item" href="{{ url_for('report') }}">
+                <i class="file alternate icon"></i> Report
+            </a>
+            <a class="{% if active=='database' %}active{% endif %} item" href="{{ url_for('database') }}">
+                <i class="database icon"></i></i> Database
+            </a>
+            <a class="{% if active=='statistics' %}active{% endif %} item" href="{{ url_for('statistics') }}">
+                <i class="chart line icon"></i> Statistics
+            </a>
+            <a class="{% if active=='howitworks' %}active{% endif %} item" href="{{ url_for('howitworks') }}">
+                <i class="cogs icon"></i> How it works
+            </a>
+            <a class="{% if active=='credits' %}active{% endif %} item" href="{{ url_for('credits') }}">
+                <i class="user icon"></i> Team
+            </a>
+        </div>
+    </div>
+
+
+    {% block content%}{% endblock%}
+
+
+
+</body>
+
+</html>
