@@ -14,7 +14,7 @@
                 <div class="ui raised segments" style="padding: 1em">
                     <div class="ui segment">
                       
-                        <form class="ui form" action="/nlp" method="post" >
+                        <form class="ui form" action="/report" method="post" >
                             <div class="field">
                                 <label >Enter your story here:</label>
                                 <textarea name="story" ></textarea>
@@ -51,6 +51,8 @@
     </div>
 </div>
 <script>
-    $('.ui.dropdown').dropdown();
+    $('.ui.dropdown')
+  .dropdown()
+;
 </script>
 {% endblock content %}

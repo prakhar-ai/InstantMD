@@ -1,0 +1,559 @@
+amnesia
+athetosis
+hypokalemia
+cough
+sedentary
+burning
+hypersomnolence
+epistaxis
+impotence
+mania
+moody
+achalasia
+ache
+Janeway lesions
+amaurosis fugax
+pain
+food intolerance
+disequilibrium
+shooting pain
+double vision
+Syncope
+alcoholic withdrawal symptoms
+coordination abnormal
+bloating
+oliguria
+sensory discomfort
+general discomfort
+insomnia
+yellow sputum
+fear of falling
+irritability
+abnormally hard consistency
+catatonia
+side pain
+hirsutism
+posturing
+sweat
+stinging sensation
+facial paresis
+photophobia
+charleyhorse
+lung nodule
+rest pain
+out of breath
+slowing of urinary stream
+pneumatouria
+diarrhea
+sciatica
+sleeplessness
+urinary retention
+burning sensation
+pain chest
+cardiovascular event
+fall
+systolic ejection murmur
+unconscious state
+stool color yellow
+hypertonicity
+claudication
+uncoordination
+pelvic pain
+hemodynamically stable
+low back pain
+previous pregnancies 2
+lesion
+fatigue
+sweats
+distended abdomen
+hyperkalemia
+st segment depression
+lightheadedness
+projectile vomiting
+adverse reaction
+renal angle tenderness
+hemoptysis
+cardiovascular finding
+fever
+bradypnea
+orthostasis
+paraparesis
+Lhermitte's sign
+chest tightness
+choke
+confabulation
+prostate tender
+lip smacking
+adverse effect
+posterior rhinorrhea
+cushingoid facies
+presence of q wave
+ecchymosis
+Hematemesis
+weight loss
+air fluid level
+phonophobia
+welt
+otorrhea
+todd paralysis
+anxiety
+nasal discharge
+verbal auditory hallucinations
+urinoma
+sore throat
+dryness
+hypesthesia
+systolic murmur
+proctalgia fugax
+fecal incontinence
+hypothermia
+purpura
+tremor
+cushingoid habitus
+verbally abusive behavior
+overweight
+retch
+palpitations
+itching
+has religious belief
+r wave feature
+alexia
+scar tissue
+Rectal tenesmus
+nystagmus
+hemianopsia homonymous
+patient non compliance
+stridor
+general unsteadiness
+abdomen acute
+apnea
+decreased body weight
+left atrial hypertrophy
+hypertrichosis
+qt interval prolonged
+stuffy nose
+nausea
+delusion
+homicidal thoughts
+hypotonic
+cystic lesion
+pleuritic pain
+extreme exhaustion
+intermenstrual heavy bleeding
+acidity
+night sweat
+exhaustion
+severe pain
+pain in lower limb
+abortion
+dystonia
+nasal flaring
+tenesmus
+palpitation
+pyrexia
+hypometabolism
+abdominal bloating
+pain neck
+ballismus
+syncope
+haemoptysis
+muscle hypotonia
+proteinemia
+headache
+colic abdominal
+akathisia
+abnormal sensation
+heavy feeling
+immobile
+rhd positive
+heme positive
+difficulty
+hypercapnia
+formication
+pruritus
+blanch
+sniffle
+belching
+moan
+feels hot/feverish
+odynophagia
+wheezing
+rapid shallow breathing
+deformity
+loss of consciousness
+spontaneous rupture of membranes
+polydypsia
+hypoalbuminemia
+tic
+abrasion
+breakthrough pain
+macerated skin
+feeling suicidal
+clonus
+stupor
+wheelchair bound
+dyspepsia
+urinary hesitation
+blackout
+dysuria
+numbness of hand
+jugular venous distention
+pyrosis
+urgency of micturition
+indifferent mood
+pin-point pupils
+decreased stool caliber
+distress respiratory
+hallucinations visual
+hematuria
+pericardial friction rub
+muscle cramps
+transaminitis
+primigravida
+rolling of eyes
+transsexual
+anosmia
+blister
+breath sounds decreased
+hypocalcemia result
+aura
+loose associations
+rambling speech
+sputum
+nervousness
+backache
+monocytosis
+symptom aggravating factors
+chill
+tinnitus
+dysphagia
+blood in stool
+angina pectoris
+discharge
+terrify
+irritable mood
+breath-holding spell
+extrapyramidal sign
+estrogen use
+st segment elevation
+blepharospasm
+dysdiadochokinesia
+prostatism
+nonsmoker
+sneeze
+pain foot
+feces in rectum
+dry
+cicatrisation
+akinesia
+seizure
+soft tissue swelling
+breech presentation
+melena
+retropulsion
+awakening early
+ulcer
+neologism
+heavy legs
+edema
+tremor resting
+unsteady gait
+stiffness
+bleeding of vagina
+flushing
+hepatomegaly
+scratch marks
+blurred vision
+hypokinetic movement disorder
+amenorrhea
+trismus
+paranoid ideation
+miscarriage
+room spinning
+orthopnea
+thicken
+tumor cell invasion
+bleeding
+emphysematous change
+prosopagnosia
+alopecia
+cachexia
+Murphy's sign
+depression
+impaired cognition
+jaundice
+hyperventilation
+vision blurred
+clammy skin
+redness
+dizziness
+gravida 0
+unwell
+vaginal bleeding
+phobia
+rigor - temperature-associated observation
+boils
+apraxia
+hunger
+throat sore
+hepatosplenomegaly
+underweight
+frail
+bruit
+asthenia
+tachypnea
+anomia
+homelessness
+scleral icterus
+hypopnea
+pain back
+metastatic lesion
+hemiplegia
+enuresis
+snuffle
+catching breath
+hot flush
+behavior showing increased motor activity
+retrograde ejaculation
+prodrome
+anasarca
+mydriasis
+ambidexterity
+abnormal vaginal bleeding
+weight gain
+floppy
+hallucination
+photopsia
+anosognosia
+no status change
+fremitus
+toothache
+unresponsiveness
+weepiness
+hypersomnia
+fecaluria
+mass in breast
+opsoclonus
+behavior hyperactive
+tachycardia
+large-for-dates fetus
+sputum purulent
+worry
+heartburn
+feeling hopeless
+lethargy
+dyspnea
+tired
+miosis
+flapping tremor
+disturbed family
+drowsiness
+hearing loss
+arthralgia
+pustule
+poor feeding
+painful swallowing
+hypotension
+aphagia
+chorea
+bradykinesia
+otalgia
+panic
+hypoproteinemia
+dyspareunia
+homicidal ideation
+Nail disease
+passed stones
+cardiomegaly
+debilitation
+asterixis
+ataxia
+fatigability
+sleepy
+dysarthria
+ascites
+erythema
+hacking cough
+abscess bacterial
+mediastinal shift
+no known drug allergies
+chest discomfort
+regurgitates after swallowing
+discomfort
+tonic seizures
+somnolence
+elation
+shivering
+Heberden's node
+confusion
+painful intercourse
+mood depressed
+energy increased
+gurgle
+platypnea
+paralyse
+chest pain
+hypoxemia
+trepopnea
+infertility
+hydropneumothorax
+labored breathing
+pulsus paradoxus
+snore
+vaginal discharge
+groggy
+agnosia
+urge incontinence
+abdominal tenderness
+bradycardia
+myalgia
+excruciating pain
+haemorrhage
+vertigo
+flare
+unable to concentrate
+unhappy
+gag
+muscle weakness
+para 2
+numbness
+Vertigo
+swelling
+rash
+vomiting
+history of - blackout
+splenomegaly
+aphasia
+strangury
+anhedonia
+Stahli's line
+myoclonus
+green sputum
+mass of body structure
+nightmare
+egophony
+spasm
+difficulty passing urine
+pansystolic murmur
+poor dentition
+urinary frequency
+muscle twitch
+petechia
+intoxication
+titubation
+milky
+amusia
+hypokinesia
+inappropriate affect
+arrhythmia
+urethral discharge
+hyponatremia
+apyrexial
+hyperhidrosis disorder
+shortness of breath
+sweating increased
+hematochezia
+amaurosis
+pallor
+hypothermia, natural
+urticaria
+noisy respiration
+frothy sputum
+throbbing sensation quality
+para 1
+dysgraphia
+apathy
+hyperacusis
+polyuria
+alcohol binge episode
+flatulence
+hoarseness
+drool
+barking cough
+opisthotonus
+monoclonal
+exophthalmos
+superimposition
+red blotches
+agitation
+paresis
+abdominal pain
+hematocrit decreased
+polymyalgia
+satiety early
+dizzy spells
+bruising
+laceration
+sinus rhythm
+hematospermia
+consciousness clear
+productive cough
+decreased translucency
+feeling strange
+dyspnea on exertion
+steatorrhea
+Osler's node
+suicidal ideation
+abnormal posturing
+atypia
+asymptomatic
+halitosis
+back pain
+giddy mood
+anorexia
+fasciculation
+motor retardation
+speech slurred
+gasping for breath
+rhonchus
+nasal discharge present
+incoherent
+lameness
+Dalrymple's sign
+neck stiffness
+non-productive cough
+macule
+suicidal
+withdraw
+dysesthesia
+gravida 10
+pain abdominal
+nausea and vomiting
+cyanosis
+bowel sounds decreased
+guaiac positive
+hyperemesis
+urinary incontinence
+malaise
+cataplexy
+convulsions
+paresthesia
+chills
+decompensation
+mental status changes
+focal seizures
+pressure chest
+sore to touch
+constipation
+clumsiness
+bedridden
+paralysis
+dullness
+rale
+hallucinations auditory
+absences finding
+swollen
+acalculia
+pulse absent
+t wave inverted
+hoard
+euphoria
+coughing
+sneezing
+weakness
+heaviness
+pimples
+uneasy
+weak
+nauseous
+rashes

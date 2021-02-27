@@ -8,8 +8,6 @@
             <div class="column">
                 <div class="ui raised segments" style="padding: 1em">
                     <div class="ui segment">
-
-
                       <table class="ui inverted grey table">
                         <thead>
                           <tr>
@@ -20,9 +18,9 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>John</td>
-                            <td>M</td>
-                            <td class="right aligned">I have high fever with chills, since 3 days. The fever increases at night. I also have generalized body ache and diziness</td>
+                            <td>{{report_dict['Name']}}</td>
+                            <td>{{report_dict['Gender']}}</td>
+                            <td class="right aligned">{{report_dict['Story']}}</td>
                           </tr>
                         </tbody>
                       </table>
@@ -39,37 +37,37 @@
                             <tr>
                             <td>Chief Complaint</td>
                             <td>Found</td>
-                            <td>right sole cracked</td>
+                            <td>{{report_dict['Chief Complaint']}}</td>
                             </tr>
                             <tr>
                             <td>Symptoms</td>
-                            <td>Not Found</td>
-                            <td>-</td>
+                            <td>Found</td>
+                            <td>{{report_dict['Symptoms']}}</td>
                             </tr>
                             <tr>
                             <td>Duration</td>
                             <td>Found</td>
-                            <td>5 weeks</td>
+                            <td>{{report_dict['Duration']}}</td>
                             </tr>
                             <tr>
                             <td>Severity</td>
                             <td>Found</td>
-                            <td>moderate</td>
+                            <td>{{report_dict['Severity']}}</td>
                             </tr>
                             <tr>
                             <td>Associated Symptom</td>
-                            <td>Not Found</td>
-                            <td>-</td>
+                            <td>{% if report_dict['Associated Symptom'] %}Found{% endif%}</td>
+                            <td>{{report_dict['Associated Symptom']}}</td>
                             </tr>
                             <tr>
                             <td>Aggravating Factors</td>
-                            <td>Not Found</td>
-                            <td>-</td>
+                            <td></td>
+                            <td>{{report_dict['Aggravating Factor']}}</td>
                             </tr>
                             <tr>
-                            <td>Relieveing Factors</td>
+                            <td>Relieving Factors</td>
                             <td>Found</td>
-                            <td>moisturizing the area</td>
+                            <td>{{report_dict['Relieving Factor']}}</td>
                             </tr>
                         </tbody>
                         </table>

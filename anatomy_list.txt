@@ -1,0 +1,59 @@
+head
+ear
+face
+forehead
+cheek
+chin
+eye
+nose
+nostril
+mouth
+lip
+tongue
+tooth
+neck
+teeth
+trunk
+thorax
+abdomen
+pelvis
+back
+upper limb
+pectoral girdle
+shoulder
+arm
+axilla
+elbow
+forearm
+wrist
+hand
+finger
+thumb
+lower limb
+pelvic girdle
+leg
+buttocks
+buttock
+hip
+thigh
+knee
+calf
+foot
+ankle
+heel
+toe
+sole
+cavities
+cranial cavity
+spinal cavity
+thoracic cavity
+abdominopelvic cavity
+abdominal cavity
+pelvic cavity
+palm
+skin
+stomach
+chest
+gums
+abdomin
+groin
