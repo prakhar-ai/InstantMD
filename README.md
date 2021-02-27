@@ -1,9 +1,9 @@
 # InstantMD
 
-Instant MD is a Investigation, Medication and Chief complaint recognition application using NLP
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/prakhar-ai/InstantMD)
 ![GitHub contributors](https://img.shields.io/github/contributors/prakhar-ai/InstantMD)
+
+Instant MD is a Investigation, Medication and Chief complaint recognition application using NLP
 
 ## Screenshots
 
