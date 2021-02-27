@@ -2,6 +2,42 @@
 
 Instant MD is a Investigation, Medication and Chief complaint recognition application using NLP
 
+### Installation
+
+### Setting up
+
+##### Clone the repository 
+
+```
+$ git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+$ cd REPO_NAME
+```
+
+##### Initialize a virtual environment
+
+Windows:
+```
+$ python -m venv venv
+$ venv\Scripts\activate.bat
+```
+
+Unix/MacOS:
+```
+$ python -m venv venv
+$ source venv/bin/activate
+```
+##### Install the dependencies
+
+```
+$ pip install -r requirements.txt
+```
+
+## Running the app
+
+```
+$ python app.py
+```
+
 ## Problem Statement
 ### Abstract
 Being able to have machines understand unstructured textual content already plays a big part nowadays in our life. NLP can contribute largely to the advancement of medical science. NLP is used to extract information from free text narratives written by a variety of healthcare providers. Here we approach natural language processing algorithm where we
