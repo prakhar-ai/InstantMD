@@ -4,13 +4,6 @@ Instant MD is a Investigation, Medication and Chief complaint recognition applic
 
 ### Installation
 
-##### Clone the repository 
-
-```
-$ git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-$ cd REPO_NAME
-```
-
 ##### Initialize a virtual environment
 
 Windows:
