@@ -4,8 +4,6 @@ Instant MD is a Investigation, Medication and Chief complaint recognition applic
 
 ### Installation
 
-### Setting up
-
 ##### Clone the repository 
 
 ```
