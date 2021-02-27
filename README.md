@@ -2,7 +2,7 @@
 
 Instant MD is a Investigation, Medication and Chief complaint recognition application using NLP
 
-### Installation
+## Installation
 
 ##### Initialize a virtual environment
 
@@ -23,7 +23,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-## Running the app
+### Running the app
 
 ```
 $ python app.py
