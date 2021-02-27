@@ -344,7 +344,6 @@ nav ul li ul li a {
     
 <style type="text/css">
 	@media only screen and (min-width: 300px) and (max-width: 650px)  {
->>>>>>> Stashed changes
 		.grid{
 			padding:0.3em!important; 
 		}
@@ -394,9 +393,6 @@ $("#nav-toggle").click(function() {
           <li><a class="{% if active=='evaluate' %}active{% endif %} item" href="{{ url_for('evaluate') }}">
                 <i class="user md icon"></i> Evaluation
             </a></li>
-          <li><a class="{% if active=='report' %}active{% endif %} item" href="{{ url_for('report') }}">
-                <i class="file alternate icon"></i> Report
-            </a></li>
          <li> <a class="{% if active=='database' %}active{% endif %} item" href="{{ url_for('database') }}">
                 <i class="database icon"></i></i> Database
             </a></li>
@@ -437,3 +433,5 @@ $("#nav-toggle").click(function() {
 
 </body>
 </html>
+
+

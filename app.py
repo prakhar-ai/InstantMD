@@ -55,7 +55,14 @@ def add():
     story = request.form.get("story")
     gender  = request.form.get("gender")
     name  = request.form.get("fullname")
-    new_data = PatientData(story=story, name=name, gender=gender)
+    complaint = request.form.get("complaint")
+    symptoms  = request.form.get("symptoms")
+    duration  = request.form.get("duration")
+    severity  = request.form.get("severity")
+    asymptom  = request.form.get("asymptom")
+    rfactor  = request.form.get("rfactor")
+    afactor  = request.form.get("afactor")
+    new_data = PatientData(story=story, name=name, gender=gender, complaint=complaint,symptoms=symptoms,duration=duration,severity=severity,asymptom=asymptom,rfactors=rfactor,afactors=afactor)
     db.session.add(new_data)
     db.session.commit()
     return redirect(url_for("database"))
@@ -195,7 +202,7 @@ def report():
         report_dict = {
             "Symptoms" : symptoms_final,
             "Chief Complaint": chief_complaint_final,
-            "Duration:" : duration_final,
+            "Duration" : duration_final,
             "Aggravating Factor" : aggravating_factor_final,
             "Relieving Factor" : relieving_factor_final,
             "Associated Symptom" : associated_symptom_final,

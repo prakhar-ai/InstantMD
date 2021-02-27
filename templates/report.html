@@ -1,8 +1,8 @@
 {% extends "layout.html" %}
 {% block content%}
 <div class="ui container">
+  <h1 class="ui huge header"><i class="file alternate icon"></i> Report</h1>
     <div class="ui stretched one column grid" style="padding: 2.5em">
-        <h1 class="ui huge header"><i class="file alternate icon"></i> Report</h1>
         <!--Semantic UI-->
         <div class="row">
             <div class="column">
@@ -13,14 +13,14 @@
                           <tr>
                             <th>Name</th>
                             <th>Gender</th>
-                            <th class="right aligned">Story</th>
+                            <th>Story</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td>{{report_dict['Name']}}</td>
                             <td>{{report_dict['Gender']}}</td>
-                            <td class="right aligned">{{report_dict['Story']}}</td>
+                            <td>{{report_dict['Story']}}</td>
                           </tr>
                         </tbody>
                       </table>
@@ -34,45 +34,55 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr {% if report_dict['Chief Complaint'] %} class="positive" {% endif%} >
                             <td>Chief Complaint</td>
-                            <td>Found</td>
+                            <td>{% if report_dict['Chief Complaint'] %}<i class="icon checkmark"></i>Found{% endif%}</td>
                             <td>{{report_dict['Chief Complaint']}}</td>
                             </tr>
-                            <tr>
+                            <tr {% if report_dict['Symptoms'] %} class="positive" {% endif%}>
                             <td>Symptoms</td>
-                            <td>Found</td>
+                            <td>{% if report_dict['Symptoms'] %}<i class="icon checkmark"></i>Found{% endif%}</td>
                             <td>{{report_dict['Symptoms']}}</td>
                             </tr>
-                            <tr>
+                            <tr {% if report_dict['Duration'] %} class="positive" {% endif%}>
                             <td>Duration</td>
-                            <td>Found</td>
+                            <td>{% if report_dict['Duration'] %}<i class="icon checkmark"></i>Found{% endif%}</td>
                             <td>{{report_dict['Duration']}}</td>
                             </tr>
-                            <tr>
+                            <tr {% if report_dict['Severity'] %} class="positive" {% endif%}>
                             <td>Severity</td>
-                            <td>Found</td>
+                            <td>{% if report_dict['Severity'] %}<i class="icon checkmark"></i>Found{% endif%}</td>
                             <td>{{report_dict['Severity']}}</td>
                             </tr>
-                            <tr>
+                            <tr {% if report_dict['Associated Symptom'] %} class="positive" {% endif%}>
                             <td>Associated Symptom</td>
-                            <td>{% if report_dict['Associated Symptom'] %}Found{% endif%}</td>
+                            <td>{% if report_dict['Associated Symptom'] %}<i class="icon checkmark"></i>Found{% endif%}</td>
                             <td>{{report_dict['Associated Symptom']}}</td>
                             </tr>
-                            <tr>
+                            <tr {% if report_dict['Aggravating Factor'] %} class="positive" {% endif%}>
                             <td>Aggravating Factors</td>
-                            <td></td>
+                            <td>{% if report_dict['Aggravating Factor'] %}<i class="icon checkmark"></i>Found{% endif%}</td>
                             <td>{{report_dict['Aggravating Factor']}}</td>
                             </tr>
-                            <tr>
+                            <tr {% if report_dict['Relieving Factor'] %} class="positive" {% endif%}>
                             <td>Relieving Factors</td>
-                            <td>Found</td>
+                            <td>{% if report_dict['Relieving Factor'] %}<i class="icon checkmark"></i>Found{% endif%}</td>
                             <td>{{report_dict['Relieving Factor']}}</td>
                             </tr>
                         </tbody>
                         </table>
 
                         <form class="ui form" action="/add" method="post" >
+                          <input type="hidden" name="fullname" value="{{report_dict['Name']}}">
+                          <input type="hidden" name="gender" value="{{report_dict['Gender']}}">
+                          <input type="hidden" name="story" value="{{report_dict['Story']}}">
+                          <input type="hidden" name="complaint" value="{{report_dict['Chief Complaint']}}">
+                          <input type="hidden" name="symptoms" value="{{report_dict['Symptoms']}}">
+                          <input type="hidden" name="duration" value="{{report_dict['Duration']}}">
+                          <input type="hidden" name="severity" value="{{report_dict['Severity']}}">
+                          <input type="hidden" name="asymptoms" value="{{report_dict['Associated Symptom']}}">
+                          <input type="hidden" name="afactor" value="{{report_dict['Aggravating Factor']}}">
+                          <input type="hidden" name="rfactor" value="{{report_dict['Relieving Factor']}}">
                         <button class="fluid ui button" type="submit">Store in Database</button>
                         </form>
                     </div>
