@@ -2,6 +2,8 @@
 
 Instant MD is a Investigation, Medication and Chief complaint recognition application using NLP
 
+![alt text](https://github.com/prakhar-ai/InstantMD/blob/main/1.jpg?raw=true)
+
 ## Installation
 
 ##### Initialize a virtual environment
