@@ -5,7 +5,9 @@ Instant MD is a Investigation, Medication and Chief complaint recognition applic
 ![GitHub last commit](https://img.shields.io/github/last-commit/prakhar-ai/InstantMD)
 ![GitHub contributors](https://img.shields.io/github/contributors/prakhar-ai/InstantMD)
 
-![alt text](https://github.com/prakhar-ai/InstantMD/blob/main/1.png?raw=true)
+![alt text](https://github.com/prakhar-ai/InstantMD/blob/main/appimage2.png?raw=true)
+
+![alt text](https://github.com/prakhar-ai/InstantMD/blob/main/appimage.png?raw=true)
 
 ## Installation
 
