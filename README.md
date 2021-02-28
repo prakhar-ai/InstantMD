@@ -40,7 +40,7 @@ $ python app.py
 ```
 ## Team
 
-### Team Members
+### DeepBlue
 * Prakhar Jain
 * Nikhil Rajput
 * Parth Desai
