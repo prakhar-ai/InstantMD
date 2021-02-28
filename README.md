@@ -40,6 +40,8 @@ $ python app.py
 ```
 ## Hackathon Details
 
+### College: Nirma University
+
 ### Team
 #### DeepBlue
 * Prakhar Jain
