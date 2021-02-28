@@ -128,7 +128,7 @@ def report():
         symptoms_final = ""
 
         aggrevating_factor_keywords = ["increase","increases","increasing","rise","rises","becomes more",]
-        relieving_factor_keywords = ["decreases", "decrease" , "decreasing" , "lessens" , "less" , "subsides", "subside"]
+        relieving_factor_keywords = ["decreases", "decrease" , "decreasing" , "lessens" , "less" , "subsides", "subside","better"]
 
         duration_list_postfix = ["month","year","week","day","months","years","weeks","days"]
 
