@@ -56,11 +56,11 @@ All libraries versions used are listed in [requirements.txt](https://github.com/
 
 ### Approach Used
 
-Our NLP approach uses both text and sentence tockenization.
+Our NLP approach uses both text and sentence tokenization.
 
 **No third party NLP libraries were used for the project and all pattern matching was done through Regex**
 
-This helps us serve results instantly as opposed to using popular libraries like nltk or spacy, giving us the name **InstantMD**. We preserving sentence structure while also searching the tockenized words. We can then extract symptoms using a list of [symptom keywords](https://github.com/prakhar-ai/InstantMD/blob/main/symptom_list.txt) and the chief complaint by matching with the part of the anatomy that the patient is experiencing symptoms in. This is done through the [anatomy keywords](https://github.com/prakhar-ai/InstantMD/blob/main/anatomy_list.txt). Other factors are similarly extracted using keywords and rules designed by us and implemented through Regex. 
+This helps us serve results instantly as opposed to using popular libraries like nltk or spacy, giving us the name **InstantMD**. We preserving sentence structure while also searching the tokenized words. We can then extract symptoms using a list of [symptom keywords](https://github.com/prakhar-ai/InstantMD/blob/main/symptom_list.txt) and the chief complaint by matching with the part of the anatomy that the patient is experiencing symptoms in. This is done through the [anatomy keywords](https://github.com/prakhar-ai/InstantMD/blob/main/anatomy_list.txt). Other factors are similarly extracted using keywords and rules designed by us and implemented through Regex. 
 
 ## Problem Statement
 ### Abstract
