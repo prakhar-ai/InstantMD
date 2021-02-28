@@ -38,14 +38,19 @@ $ pip install -r requirements.txt
 ```
 $ python app.py
 ```
-## Team
+## Hackathon Details
 
-### DeepBlue
+### Team
+#### DeepBlue
 * Prakhar Jain
 * Nikhil Rajput
 * Parth Desai
 * Parth Panchal
 * Nora Surani
+
+### Libraries Used
+
+All libraries versions used are listed in [requirements.txt](https://github.com/prakhar-ai/InstantMD/blob/main/requirements.txt)
 
 
 ## Problem Statement
