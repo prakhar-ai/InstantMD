@@ -38,6 +38,15 @@ $ pip install -r requirements.txt
 ```
 $ python app.py
 ```
+## Team
+
+### Team Members
+* Prakhar Jain
+* Nikhil Rajput
+* Parth Desai
+* Parth Panchal
+* Nora Surani
+
 
 ## Problem Statement
 ### Abstract
