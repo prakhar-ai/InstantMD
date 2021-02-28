@@ -15,11 +15,11 @@
                     <div class="ui segment">
                       
                         <form class="ui form" action="/report" method="post" >
-                            <div class="field">
+                            <div class="required field">
                                 <label >Enter your story here:</label>
                                 <textarea name="story" ></textarea>
                             </div>
-                            <div class="field">
+                            <div class="required field">
                                 <label >Gender</label>
                         <div class="ui selection dropdown">
                             <input type="hidden" name="gender">
@@ -33,12 +33,13 @@
                           </div>
                         </div>
 
-                            <div class="field">
+                            <div class="required field">
                                 <label>Full name</label>
                                 <input type="text" placeholder="Full Name" name="fullname">
                               </div>
 
                             <button class="fluid ui button" type="submit">Evaluate Story</button>
+                            <div class="ui error message"></div>
                             
                             
                            
@@ -51,8 +52,44 @@
     </div>
 </div>
 <script>
+
     $('.ui.dropdown')
   .dropdown()
 ;
+
+$('.ui.form')
+  .form({
+    fields: {
+      name: {
+        identifier: 'story',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Please enter your story'
+          }
+        ]
+      },
+      skills: {
+        identifier: 'fullname',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Please enter your full name'
+          }
+        ]
+      },
+      gender: {
+        identifier: 'gender',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Please select a gender'
+          }
+        ]
+      }
+    }
+  })
+;
+
 </script>
 {% endblock content %}
