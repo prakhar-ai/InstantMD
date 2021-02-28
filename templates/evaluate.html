@@ -64,10 +64,11 @@ $('.ui.form')
         identifier: 'story',
         rules: [
           {
-            type   : 'empty',
-            prompt : 'Please enter your story'
-          }
+            type   : 'minLength[30]',
+            prompt : 'Please enter a proper story'
+          }          
         ]
+        
       },
       skills: {
         identifier: 'fullname',
