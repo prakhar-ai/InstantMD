@@ -217,10 +217,7 @@ def report():
     report_dict = InstantMD(story,gender,name)
     return render_template('report.html', title='Report', active='report',report_dict=report_dict)
     
-def getApp():
-    return app
-    
+
 if __name__ == "__main__":
     db.create_all()
     app.run(debug=True)		
-
