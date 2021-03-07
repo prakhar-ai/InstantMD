@@ -3,6 +3,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/prakhar-ai/InstantMD)
 ![GitHub contributors](https://img.shields.io/github/contributors/prakhar-ai/InstantMD)
 
+:trophy: Winner of the HealthCare Track at MINeD Hackathon
+
 Instant MD is a Investigation, Medication and Chief Complaint recognition application using NLP
 
 ## Screenshots
