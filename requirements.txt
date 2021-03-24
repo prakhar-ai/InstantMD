@@ -179,7 +179,7 @@ torchvision==0.8.2
 tornado==6.1
 tqdm==4.55.0
 traitlets==5.0.5
-Twisted @ file:///C:/Users/Lenovo/Twisted-20.3.0-cp39-cp39-win_amd64.whl
+Twisted
 typing-extensions==3.7.4.3
 urllib3==1.26.2
 virtualenv==20.3.0
