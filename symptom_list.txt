@@ -85,7 +85,7 @@ confabulation
 prostate tender
 lip smacking
 adverse effect
-posterior rhinorrhea
+posteriorÂ rhinorrhea
 cushingoid facies
 presence of q wave
 ecchymosis
@@ -109,7 +109,7 @@ fecal incontinence
 hypothermia
 purpura
 tremor
-cushingoid habitus
+cushingoidÂ habitus
 verbally abusive behavior
 overweight
 retch
@@ -128,7 +128,7 @@ general unsteadiness
 abdomen acute
 apnea
 decreased body weight
-left atrial hypertrophy
+leftÂ atrialÂ hypertrophy
 hypertrichosis
 qt interval prolonged
 stuffy nose
@@ -199,7 +199,7 @@ dysuria
 numbness of hand
 jugular venous distention
 pyrosis
-urgency of micturition
+urgency ofÂ micturition
 indifferent mood
 pin-point pupils
 decreased stool caliber
@@ -304,7 +304,7 @@ asthenia
 tachypnea
 anomia
 homelessness
-scleral icterus
+scleralÂ icterus
 hypopnea
 pain back
 metastatic lesion
@@ -398,7 +398,7 @@ trepopnea
 infertility
 hydropneumothorax
 labored breathing
-pulsus paradoxus
+pulsusÂ paradoxus
 snore
 vaginal discharge
 groggy
